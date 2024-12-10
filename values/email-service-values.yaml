@@ -19,7 +19,7 @@ resources:
 
 servicePort: 5000
 
-# helm template -f email-service-values.yaml microservice
-# helm lint -f email-service-values.yaml microservice  --> Check the correctness and validity of helm yaml files.
-# helm install -f email-service-values.yaml emailservice microservice
+# helm template -f values/email-service-values.yaml charts/microservice
+# helm lint -f values/email-service-values.yaml charts/microservice  --> Check the correctness and validity of helm yaml files.
+# helm install -f values/email-service-values.yaml emailservice charts/microservice
 # helm ls

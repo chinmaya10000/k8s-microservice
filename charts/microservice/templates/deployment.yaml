@@ -24,14 +24,6 @@ spec:
         - name: {{ .name }}
           value: {{ .value | quote }}
         {{- end}}
-        readinessProbe:
-          periodSeconds: 5
-          grpc:
-            port: {{ .Values.containerPort }}
-        livenessProbe:
-          periodSeconds: 5
-          grpc:
-            port: {{ .Values.containerPort }}
         resources:
           requests:
             cpu: {{ .Values.resources.requests.cpu }}
