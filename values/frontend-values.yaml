@@ -33,5 +33,5 @@ resources:
   
 
 servicePort: 80
-serviceType: NodePort
+serviceType: LoadBalancer 
 
