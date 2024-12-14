@@ -39,6 +39,6 @@ images:
 
 
 
-# kubectl apply -k k8s-microservice/kustomize/overlays/dev
+# kubectl apply -k overlays/dev
 
 
